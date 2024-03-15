@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: rgb(14,10,36);
+  color: white;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  margin-left: 10px;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
