@@ -46,7 +46,7 @@ const ContactPage = () => {
     console.log(obj);
     
     let url = "https://effort-estimation-backend.onrender.com/predict";
-    
+
     try {
       const response = await axios.post(url, obj);
       console.log(response.data.predictions); 
